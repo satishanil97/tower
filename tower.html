@@ -4,13 +4,14 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.js"></script>
+    <script src="tower.js"></script>
     <link rel = "stylesheet"
    type = "text/css"
    href = "tower.css" />
   </head>
   <body ng-app>
     <div class="container col-md-12">
-      <div class="peg col-md-4" id="peg1">
+      <div class="peg col-md-4 col-sm-6 col-xs-6" id="A">
         <div class="disk" id="disk1"></div>
         <div class="disk" id="disk2"></div>
         <div class="disk" id="disk3"></div>
@@ -18,7 +19,7 @@
         <h1>A</h1>
       </div>
 
-      <div class="peg col-md-4" id="peg2">
+      <div class="peg col-md-4 col-sm-6 col-xs-6" id="B">
         <div class="emptydisk"></div>
         <div class="emptydisk"></div>
         <div class="emptydisk"></div>
@@ -26,13 +27,15 @@
         <h1>B</h1>
       </div>
 
-      <div class="peg col-md-4" id="peg3">
+      <div class="peg col-md-4 col-sm-12 col-xs-12" id="C">
         <div class="emptydisk"></div>
         <div class="emptydisk"></div>
         <div class="emptydisk"></div>
         <div class="emptydisk"></div>
         <h1>C</h1>
       </div>
+
+      <button type="button" name="start" class="btn btn-primary">Start</button>
     </div>
     <hr>
   </body>
