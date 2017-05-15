@@ -1,0 +1,41 @@
+.container {
+  padding: 10px;
+}
+
+.peg {
+  display: inline;
+  float: left;
+  text-align: center;
+  padding: 5px;
+}
+
+.disk {
+  display: block;
+  margin: 0 auto;
+  background-color: red;
+  height: 50px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+.emptydisk {
+  display: block;
+  height: 50px;
+  width: 100px;
+}
+
+#disk1 {
+  width: 50px;
+}
+
+#disk2 {
+  width: 100px;
+}
+
+#disk3 {
+  width: 150px;
+}
+
+#disk4 {
+  width: 200px;
+}
