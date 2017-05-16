@@ -1,7 +1,8 @@
 h1 {
   display: inline;
-  position: absolute;
+  position: relative;
   bottom: 0;
+  padding-top: 20px;
 }
 
 button {
@@ -22,16 +23,18 @@ button {
   text-align: center;
   padding: 5px;
   height: 300px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .disk {
+  position: relative;
   display: block;
   margin: 0 auto;
   background-color: red;
   height: 20%;
   width: 40%;
   border: 2px solid black;
-  clear: both;
 }
 
 

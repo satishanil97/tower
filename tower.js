@@ -3,12 +3,12 @@ var numOfMoves = 0;
 
 function moveDisk(from,to) {
   var disks = document.getElementById(from).querySelectorAll(".disk");
-  var disk = disks[0];
+  var disk = disks[disks.length - 1];
   var diskID = disk.id;
 
   var source = '#' + diskID;
   var dest = '#' + to;
-  $(source).prependTo(dest);
+  $(source).appendTo(dest);
 }
 
 function tower_of_hanoi(n,from,aux,to) {
