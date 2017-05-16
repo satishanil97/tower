@@ -1,13 +1,18 @@
 h1 {
   display: inline;
+  position: absolute;
+  bottom: 0;
 }
 
 button {
   margin-top: 50px;
+  display: block;
+  align-self: center;
 }
 
 .container {
   padding: 10px;
+  position: relative;
   text-align: center;
 }
 
@@ -16,35 +21,32 @@ button {
   float: left;
   text-align: center;
   padding: 5px;
+  height: 300px;
 }
 
 .disk {
   display: block;
   margin: 0 auto;
   background-color: red;
-  height: 50px;
-  width: 200px;
+  height: 20%;
+  width: 40%;
   border: 2px solid black;
+  clear: both;
 }
 
-.emptydisk {
-  display: block;
-  height: 50px;
-  width: 100px;
-}
 
 #disk1 {
-  width: 50px;
+  width: 20%;
 }
 
 #disk2 {
-  width: 100px;
+  width: 30%;
 }
 
 #disk3 {
-  width: 150px;
+  width: 50%;
 }
 
 #disk4 {
-  width: 200px;
+  width: 70%;
 }
