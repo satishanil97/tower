@@ -42,5 +42,5 @@ function nextMove() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    tower_of_hanoi(4,'A','B','C');
+    tower_of_hanoi(5,'A','B','C');
 }, false);
